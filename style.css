@@ -41,6 +41,34 @@ main {
 }
 
 /* Content Sections */
+.purpose-section {
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border-left: 5px solid #1e5631;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(30, 86, 49, 0.1);
+}
+
+.purpose-section h2 {
+    color: #1e5631;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.purpose-section p {
+    font-size: 1em;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.purpose-section p:last-child {
+    margin-bottom: 0;
+}
+
 .content-section {
     background: white;
     margin-bottom: 40px;
