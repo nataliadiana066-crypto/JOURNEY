@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: journeyhub
+    buildCommand: echo "No build needed"
+    serviceMethod: none
+    staticPublishPath: ./
+    routes:
+      - path: /
+        index: index.html
